@@ -50,8 +50,26 @@ a {
     background-color: var(--bg-section);
 }
 
+    /*Text*/
+.text-center {
+    text-align: center;
+}
+
+.underline-t {
+    text-decoration: underline;
+}
+
+.light-t {
+    color: gray;
+}
+    /*/Text*/
+
 .pad-btn {
     padding: 10px 20px;
+}
+
+.pad-30 {
+    padding: 30px;
 }
 
 .btn-1 {
@@ -66,7 +84,7 @@ a {
 .inline-block{
     display: inline-block;
 }
-
+    /*Flex*/
 .flex {
     display: flex;
 }
@@ -81,6 +99,12 @@ a {
     align-items: center;
 }
 
+.gap {
+    gap: 30px;
+}
+    /*/Flex*/
+
+    /*Margin*/
 .mb-100 {
     margin-bottom: 100px;
 }
@@ -93,9 +117,14 @@ a {
     margin-bottom: 30px;
 }
 
-.text-center {
-    text-align: center;
+.mb-10 {
+    margin-bottom: 10px;
 }
+
+.mr-5 {
+    margin-right: 5px;
+}
+
 /*Header*/
 header {
     width: 100%;
@@ -129,9 +158,10 @@ h2 {
 
 h3 {
     font-size: 1.6rem;
+    margin-bottom: 20px;
 }
 
-.col {
+.jumbo-text {
     width: calc(100% / 3);
 }
 
@@ -151,31 +181,23 @@ h3 {
     font-size: 3rem;
 }
 
+.col {
+    width: calc(100% / 3);
+    box-shadow: inset 0 0 0 1px lightgrey;
+}
+
 .icon-sub {
     text-align: center;
     box-shadow: inset 0 0 0 1px lightgrey;
     padding: 10px;
 }
 
-.card-sub {
-    box-shadow: inset 0 0 0 1px lightgrey;
-    padding: 30px;
-}
-
 .bolder {
     font-weight: 700;
 }
 
-.icon-ul{
-    margin-right: 5px;
-}
-
 .card-ul li {
     padding: 10px 0;
-}
-
-.underline-t {
-    text-decoration: underline;
 }
 
 .fa-check {
