@@ -229,11 +229,6 @@ h3 {
     border: 1px solid lightgray;
 }
 
-.hr-footer {
-    width: 10%;
-    border: 1px solid gray;
-}
-
 .jumbo-img{
     position: relative;
     width: calc((100% / 3) * 2);
@@ -360,4 +355,19 @@ footer {
 .footer-ul li a {
     color: var(--light-primary);
     padding: 5px 0px;
+}
+
+.hr-footer {
+    width: 10%;
+    border: 1px solid gray;
+}
+
+.fa-earth-americas {
+    color: gray;
+}
+
+select {
+    color: gray;
+    background-color: #000000;
+    border: none;
 }
