@@ -45,16 +45,46 @@ a {
     margin: 0 auto;
     padding: 10px;
 }
-
+    /* Background Colors*/
 .bg-section {
     background-color: var(--bg-section);
 }
 
-    /*Text*/
-.text-center {
-    text-align: center;
+.bg-green{
+    background-color: var(--green);
 }
 
+.bg-red-dark{
+    background-color: var(--red-dark);
+}
+
+.bg-blue-light{
+    background-color: var(--blue-light);
+}
+
+.bg-red-light{
+    background-color: var(--red-light);
+}
+
+.bg-red{
+    background-color: var(--red);
+}
+
+.bg-blue-dark{
+    background-color: var(--blue-dark);
+}
+
+.bg-yellow{
+    background-color: var(--yellow);
+}
+
+.bg-light-secondary {
+    background-color: var(--light-secondary);
+}
+
+    /* /Background Colors*/
+
+    /*Text*/
 .underline-t {
     text-decoration: underline;
 }
@@ -75,6 +105,17 @@ a {
 .btn-1 {
     color: var(--light-primary);
     background-color: var(--bg-button);
+    text-align: center;
+}
+
+.btn-3 {
+    color: var(--dark-primary);
+    background-color: var(--light-secondary);
+    text-align: center;
+}
+
+.shadow {
+    box-shadow: inset 0 0 0 1px lightgrey;
 }
 
 .block {
@@ -92,9 +133,11 @@ a {
 .wrap {
     flex-flow: row wrap;
 }
+
 .space-between {
     justify-content: space-between;
 }
+
 .align-center {
     align-items: center;
 }
@@ -133,6 +176,8 @@ header {
     z-index: 999;
     background-color: var(--light-primary);
     box-shadow: inset 0px -2px 0px var(--light-secondary);
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .header-ul li a {
@@ -153,7 +198,7 @@ h1 {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 h3 {
@@ -183,7 +228,6 @@ h3 {
 
 .col {
     width: calc(100% / 3);
-    box-shadow: inset 0 0 0 1px lightgrey;
 }
 
 .icon-sub {
@@ -204,6 +248,37 @@ h3 {
     color: var(--bg-button)
 }
 
+.col-gap {
+    width: calc((100% / 3) - 20px);
+}
+
+.col-gap img {
+    width: 100%;
+}
+
+.square {
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square img {
+    width: 50%;
+    filter: invert(100%);
+}
+
+.big-square {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.big-square img {
+    width: 50%
+}
+
+
 /*Footer*/
 
 footer {
@@ -215,9 +290,14 @@ footer {
 .footer-ul li:first-child {
     font-size: 1.5rem;
     font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.footer-ul li{
     margin-bottom: 15px;
 }
 
 .footer-ul li a {
     color: var(--light-primary);
+    padding: 5px 0px;
 }
