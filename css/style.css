@@ -219,6 +219,21 @@ h3 {
     margin-bottom: 20px;
 }
 
+.hr-card {
+    width: 23%;
+    border: 1px solid lightgray;
+}
+
+.hr-square {
+    width: 20%;
+    border: 1px solid lightgray;
+}
+
+.hr-footer {
+    width: 10%;
+    border: 1px solid gray;
+}
+
 .jumbo-img{
     position: relative;
     width: calc((100% / 3) * 2);
