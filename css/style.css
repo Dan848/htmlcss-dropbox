@@ -296,6 +296,34 @@ h3 {
     padding: 100px 0px;
     color: var(--red-dark);
 }
+
+summary {
+    list-style: none;
+}
+
+.fa-angle-down {
+    margin-right: 60px;
+}
+
+details[open] .sum-wrapper {
+	animation: fade-in 0.5s forwards;
+}
+
+@keyframes fade-in {
+	0% {
+		transform: translateY(-20px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.sum-wrapper li{
+    padding: 10px;
+}
+
 /*Footer*/
 
 footer {
