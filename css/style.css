@@ -230,6 +230,32 @@ main {
     margin-top: 150px;
 }
 
+input[type="radio"] {
+    appearance: none;
+    background-color: var(--light-primary);
+    border: 2px solid var(--grey-light);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px
+}
+
+input[type="radio"]:checked {
+    appearance: none;
+    background-color: var(--light-primary);
+    box-shadow: inset 0 0 0 5px var(--bg-button);
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px
+}
+
+label {
+    margin-right: 60px;
+}
+
+
 h1 {
     font-size: 5rem;
     font-weight: 800;
@@ -303,7 +329,7 @@ h3 {
     padding: 10px;
 }
 
-.container .icon-sub {
+.container > .icon-sub {
     border-top: 1px solid var(--grey-light);
     border-right: 1px solid var(--grey-light);
     border-left: 1px solid var(--grey-light);
